@@ -1,6 +1,4 @@
-# weather_app_tutorial
-
-🌦️ Weather App
+# 🌦️ Weather App
 
 This is a Flutter-based Weather App that fetches and displays the current weather information for a user’s current location. The app uses OpenWeather API to retrieve weather data and the Geolocator package to fetch the user’s current location.
 
@@ -14,13 +12,11 @@ This is a Flutter-based Weather App that fetches and displays the current weathe
 	•	Weather description and icon
 	•	Wind speed
 	•	Humidity level
-	•	Automatically fetches location-based weather using the device’s GPS.
 
 🛠️ Technologies Used
 
 	•	Flutter: Cross-platform framework for building Android and iOS apps.
 	•	OpenWeather API: Provides real-time weather information based on location.
-	•	Geolocator: Flutter package for accessing device location (GPS).
 	•	intl: For formatting date and time.
 
 🏗️ Setup Instructions
@@ -50,25 +46,7 @@ flutter pub get
 
 const String OPENWEATHER_API_KEY = 'YOUR_API_KEY';
 
-5. Location Permissions
-
-For Android:
-
-	•	In android/app/src/main/AndroidManifest.xml, add the following permissions:
-
-<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-
-For iOS:
-
-	•	In ios/Runner/Info.plist, add the following entries:
-
-<key>NSLocationWhenInUseUsageDescription</key>
-<string>This app needs access to your location to display the weather for your area.</string>
-<key>NSLocationAlwaysUsageDescription</key>
-<string>This app needs access to your location to display the weather for your area.</string>
-
-6. Run the App
+5. Run the App
 
 Use the following command to run the app on your connected device or emulator:
 
